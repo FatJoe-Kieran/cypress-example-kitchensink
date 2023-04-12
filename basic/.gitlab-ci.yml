@@ -8,7 +8,7 @@ variables:
 # https://gitlab.com/help/ci/caching/index.md
 cache:
   key: ${CI_COMMIT_REF_SLUG}
-  paths:
+  paths: 
     - .npm
     - cache/Cypress
 
