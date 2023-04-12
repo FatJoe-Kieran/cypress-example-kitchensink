@@ -12,7 +12,7 @@ cache:
     - .npm
     - cache/Cypress
 
-test:
+test: 
   image: cypress/base:18.14.1
   stage: test
   script:
